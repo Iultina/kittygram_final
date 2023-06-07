@@ -11,7 +11,7 @@
 repo_owner: ваш_логин_на_гитхабе
 kittygram_domain: полная ссылка (https://доменное_имя) на ваш проект Kittygram
 taski_domain: полная ссылка (https://доменное_имя) на ваш проект Taski
-dockerhub_username: ваш_логин_на_докерхабе
+dockerhub_username: ваш_логин_на_докерхаб
 ```
 
 Скопируйте содержимое файла `.github/workflows/main.yml` в файл `kittygram_workflow.yml` в корневой директории проекта.
