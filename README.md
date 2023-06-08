@@ -1,5 +1,7 @@
 # Kittygram
 ## Учебный проект Замечательные коты
+![example workflow](https://github.com/iultina/kittygram_final/actions/workflows/main.yml/badge.svg)
+
 
 Этот проект позволит вам выкладывать свои и любоваться чужими фото котов и кошек.
 В описание добавьте имя, цвет и достижения пушистого героя.
