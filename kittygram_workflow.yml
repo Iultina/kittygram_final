@@ -140,7 +140,6 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
-
         source: "docker-compose.production.yml"
         target: "kittygram"
     - name: Executing remote ssh commands to deploy
@@ -150,8 +149,6 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
-        SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
-
         script: |
           # Удаляет неиспользуемые контейнеры, изображения и сети
           sudo docker system prune -a --force
